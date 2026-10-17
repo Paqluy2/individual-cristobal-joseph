@@ -1,0 +1,28 @@
+package com.joysistvi.day4.operator;
+
+public class UnaryOperator {
+    public static void main(String[] args) {
+        // negating an expression (-)
+
+        int num = 10;
+        System.out.println(-num);
+
+        // inverting the value of a boolean (!)
+
+        boolean isActive = true;
+
+        System.out.println(!isActive);
+
+        // increment/decrement a value by one
+
+        int num2 = 20;
+        //System.out.println(++num2);
+        //System.out.println(--num2);
+
+        // post / pre increment
+        //num2++;
+        System.out.println(num2++);
+        System.out.println(num2);
+
+    }
+}
