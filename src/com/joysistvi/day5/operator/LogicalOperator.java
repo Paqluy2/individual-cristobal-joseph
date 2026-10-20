@@ -16,7 +16,7 @@ public class LogicalOperator {
         // compound Conditional Statement
         int age = 15;
 
-        boolean usJuniorHigh = age >= 13 && age <= 17;
-        System.out.println(usJuniorHigh);
+        boolean isJuniorHigh = age >= 13 && age <= 17;
+        System.out.println(isJuniorHigh );
     }
 }
