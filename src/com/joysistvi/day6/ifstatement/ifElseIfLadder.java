@@ -36,9 +36,9 @@ public class ifElseIfLadder {
         System.out.println(dayName);
     */
         // Nested If Statement
-        int grade = 1000;
+        int grade = 92;
         String result;
-    /*
+
         if (grade >= 1 && grade <= 100){
 
             if (grade <= 70) {
@@ -47,10 +47,8 @@ public class ifElseIfLadder {
                 result = "C";
             } else if (grade <=90){
                 result = "B";
-            } else if (grade >= 100) {
+            } else {
                 result = "A";
-            }else {
-                result = "Invalid Grade";
             }
             System.out.println(grade);
             System.out.println(result);
@@ -59,8 +57,9 @@ public class ifElseIfLadder {
 
     }
 
-     */
+
         // early exit
+        /*
         if (!(grade >= 1 && grade <= 100)) {
             return; // terminate method
         }
@@ -79,7 +78,7 @@ public class ifElseIfLadder {
 
         System.out.println("Grade: " + grade);
         System.out.println("Classification: " + result);
-
+       */
 
  }
 }
