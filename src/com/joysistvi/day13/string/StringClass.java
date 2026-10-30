@@ -25,6 +25,7 @@ public class StringClass {
                 System.out.println("Username and Password cannot be empty.");
             }
 
+
             // Authentication
             if (username.equals(correctUsername) && password.equals(correctPassword)) {
                 System.out.println("Login Successfully!");

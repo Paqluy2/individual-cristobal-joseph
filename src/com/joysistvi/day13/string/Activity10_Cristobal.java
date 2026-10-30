@@ -5,7 +5,7 @@ public class Activity10_Cristobal {
     public static void main(String[] args) {
 
         String text = "Joysis TECH VOC INC.";
-
+/*
         System.out.println("contains()");
         System.out.println(text.contains("Joysis"));
 
@@ -20,9 +20,9 @@ public class Activity10_Cristobal {
 
         System.out.println("\ntrim()");
         System.out.println(text.trim());
-
+*/
         System.out.println("\nreplace()");
-        System.out.println(text.replace("Joysis" , "Sadsis"));
+        System.out.println(text.replace("Joy" , "Sad"));
 
         char[] letters = text.toCharArray();
         System.out.println("\ntoCharArray()");
@@ -38,7 +38,7 @@ public class Activity10_Cristobal {
         char firstChar = country.charAt(0);
         char lastChar = country.charAt(10);
 
-        System.out.println("String: " + country);
+        System.out.println("\nString: " + country);
         System.out.println("First character: " + firstChar);
         System.out.println("Last character: " + lastChar);
 
