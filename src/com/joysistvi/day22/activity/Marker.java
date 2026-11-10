@@ -23,6 +23,11 @@ public class Marker extends Pen {
     }
 
     @Override
+    public void refill() {
+        System.out.println("Refilling the marker ink.");
+    }
+
+    @Override
     public String toString() {
         String isPerm = this.permanent ? "Yes" : "No";
         return "Type: Marker\n" + super.toString() + "\nPermanent: " + isPerm;

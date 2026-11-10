@@ -9,10 +9,12 @@ public class Ballpen extends Pen {
     }
 
     public double getPointSize() {
+
         return pointSize;
     }
 
     public void setPointSize(double pointSize) {
+
         this.pointSize = pointSize;
     }
 
@@ -20,9 +22,14 @@ public class Ballpen extends Pen {
     public void write() {
         System.out.println("Writing smoothly with a ballpen.");
     }
+    @Override
+    public void refill() {
+        System.out.println("Replacing the ballpen ink refill.");
+    }
 
     @Override
     public String toString() {
+
         return "Type: Ballpen\n" + super.toString() + "\nPoint Size: " + this.pointSize;
     }
 }

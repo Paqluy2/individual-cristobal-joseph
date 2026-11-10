@@ -28,7 +28,7 @@ public class GelPen extends Ballpen {
         return "Type: GelPen\n" +
                 "Brand: " + getBrand() + "\n" +
                 "Color: " + getColor() + "\n" +
-                "Weight in Grams: " + getWeightInGrams() + "\n" +
+                "Weight in Grams: " + getWeight() + "\n" +
                 "Point Size: " + getPointSize() + "\n" +
                 "Waterproof: " + isWaterproof;
     }
